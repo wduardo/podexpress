@@ -1,0 +1,57 @@
+/* Estilo básico */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+main {
+    padding: 2rem;
+}
+
+#produtos {
+    text-align: center;
+}
+
+.produto {
+    display: inline-block;
+    width: 200px;
+    margin: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+}
+
+.produto img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #222;
+    color: white;
+    position: relative;
+}
+
+.whatsapp {
+    display: inline-block;
+    background-color: #25d366;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
